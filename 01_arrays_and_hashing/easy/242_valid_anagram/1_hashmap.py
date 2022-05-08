@@ -16,6 +16,9 @@ class Solution(object):
             count_s[s[i]] = 1 + count_s.get(s[i], 0)   # 0 is default if not in the map
             count_t[t[i]] = 1 + count_t.get(t[i], 0)
 
+        # compare each pair in the maps
+        # the number of each character should be the same if they are anagrams
+
         for c in count_s:
             if count_s[c] != count_t.get(c, 0):
                 return False

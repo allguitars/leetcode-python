@@ -1,3 +1,4 @@
+# 242: Valid anagram
 # neetcode: https://youtu.be/9UtInBqnCgA
 # Time: O(S + T)
 # Space: O(S + T)

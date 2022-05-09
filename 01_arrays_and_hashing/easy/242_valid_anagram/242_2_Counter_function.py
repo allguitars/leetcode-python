@@ -1,3 +1,4 @@
+# 242: Valid anagram
 # neetcode: https://youtu.be/9UtInBqnCgA
 # 使用內建的函式 Counter()  可以用來快速建立 count map
 

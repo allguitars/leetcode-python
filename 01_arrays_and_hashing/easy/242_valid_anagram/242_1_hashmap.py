@@ -19,8 +19,8 @@ class Solution(object):
         # compare each pair in the maps
         # the number of each character should be the same if they are anagrams
 
-        for c in count_s:
-            if count_s[c] != count_t.get(c, 0):
+        for char in count_s:
+            if count_s[char] != count_t.get(char, 0):
                 return False
 
         return True

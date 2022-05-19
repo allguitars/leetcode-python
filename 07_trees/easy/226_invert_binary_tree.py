@@ -1,4 +1,4 @@
-# 226. Invert Binary Tree
+# 226. Invert Binary Tree: https://leetcode.com/problems/invert-binary-tree/submissions/
 # neetcode: https://youtu.be/OnSn2XEQ4MY
 
 # recursion

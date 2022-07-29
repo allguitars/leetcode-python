@@ -20,7 +20,7 @@ def combination_sum(candidates, target):
         # include item at index i to the sub-array
         current.append(candidates[i])
 
-        # 1. decision to keep adding current item -- i remains the same
+        # 1. decision to keep adding current item -- do not change i
         dfs(i)
 
         # restore the sub-arr after recursive call for making other decision

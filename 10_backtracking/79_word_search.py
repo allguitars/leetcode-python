@@ -33,6 +33,9 @@ def exist(board, word):
                   dfs(r, c-1, pos+1))
 
         # BACKTRACK: remove the mark as we do not want to mess with other paths
+        # 到這個關鍵點，表示不管有沒有找到，"從我這一cell開始"的所有可能性我都走過了。
+        # 當我要把結果回傳時，就要清除我現在的足跡。
+        # 如此一來，退回到我"前一步"要從其他相鄰cell重新開始時，才不會被舊足跡阻礙。
         path.remove((r, c))
 
         return result

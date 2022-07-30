@@ -50,3 +50,7 @@ def subsetsWithDup(nums):
     dfs(0)
 
     return res
+
+
+nums = [1, 2, 2]
+print(subsetsWithDup(nums))

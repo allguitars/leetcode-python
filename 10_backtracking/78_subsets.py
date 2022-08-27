@@ -3,6 +3,9 @@
 https://leetcode.com/problems/subsets/
 
 Neetcode: https://youtu.be/REOH22Xwdkk
+
+#Backtracking 
+#Note(notability)
 '''
 
 

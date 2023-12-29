@@ -1,5 +1,12 @@
-# 121: Best time to buy and sell stock
-# neetcode: https://youtu.be/1pkOgXD63yU
+'''
+121: Best time to buy and sell stock
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+# Neetcode: https://youtu.be/1pkOgXD63yU
+
+#SlidingWindow
+#NeetCode
+#easy
+'''
 
 
 class Solution(object):
@@ -12,7 +19,8 @@ class Solution(object):
             if prices[l] < prices[r]:
                 profit = prices[r] - prices[l]
                 max_profit = max(max_profit, profit)
-            else:  # right value is lower, so we make it the new left pointer (new starting point)
+            # right value is lower, so we make it the new left pointer (new starting point)
+            else:
                 l = r
 
             r += 1  # right pointer shifts for every iteration

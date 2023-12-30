@@ -4,10 +4,10 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 NeetCode: https://youtu.be/wiGpQwVHdE0?si=6ljPdflpVIEGN6E4
 
-#Medium
-#HashTable #String #Sliding Window
+#medium
+#HashTable #String #SlidingWindow
 
-### Related problems:
+Related problems:
 
 159. Longest Substring with At Most Two Distinct Characters (M)
 340. Longest Substring with At Most K Distinct Characters (M)

@@ -1,5 +1,15 @@
-# 20. Valid Parentheses
-# neetcode: https://youtu.be/WTzjTskDFMg
+
+
+'''
+20. Valid Parentheses
+
+neetcode: https://youtu.be/WTzjTskDFMg
+
+#easy
+#SlidingWindow
+
+'''
+
 
 class Solution(object):
     def isValid(self, s):

@@ -1,5 +1,3 @@
-
-
 '''
 20. Valid Parentheses
 

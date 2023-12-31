@@ -34,6 +34,9 @@ def three_sum(nums):
     nums.sort()
 
     for i, n in enumerate(nums):
+        # skip positive integers
+        if n > 0:
+            break
 
         # 如果不是最左邊的數字，且跟前一個數字相同，表示我們已經處理過相同的情況了。
         # 留意這個 list 是已經排序過了，所以右邊的數字一定大於或等於左邊的數字。
@@ -61,7 +64,7 @@ def three_sum(nums):
                 l += 1
 
                 # 但是如果 left pointer 出現相同數字，為了避免同樣數組被加進 res，必須再移動一次 left pointer。
-                while nums[i] == nums[i-1] and l < r:  # 注意 left 必須比 right 小
+                while nums[l] == nums[l-1] and l < r:  # 注意 left 必須比 right 小
                     l += 1
     return res
 

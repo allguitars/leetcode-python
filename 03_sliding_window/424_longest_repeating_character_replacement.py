@@ -4,7 +4,7 @@ https://leetcode.com/problems/longest-repeating-character-replacement/
 
 NeetCode: https://youtu.be/gqXU1UyA8pk
 
-#medium
+#Medium
 #SlidingWindow #HashTable #String
 
 Similar Questions:
@@ -24,7 +24,7 @@ class Solution:
         l = 0
 
         for r in range(len(s)):
-            count[s[r]] = 1 + count.get(s[r], 0)       # 在字典裡面記錄所有字母出現的次數
+            count[s[r]] = 1 + count.get(s[r], 0)  # 在字典裡面記錄所有字母出現的次數
 
             # k 是允許被替換掉的字母數量，如果當前 window 長度減掉出現最多次的字母數量之後，
             # 仍然大於 k 的話，表示即使換掉 k 個字元，仍無法達到視窗內全部字元都相同的目標。

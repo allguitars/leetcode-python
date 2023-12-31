@@ -7,7 +7,7 @@ Neetcode: https://youtu.be/1pkOgXD63yU
 #SlidingWindow
 #TwoPointers
 #NeetCode
-#easy
+#Easy
 '''
 
 

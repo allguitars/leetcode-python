@@ -4,7 +4,7 @@ https://leetcode.com/problems/3sum/
 
 NeetCode: https://youtu.be/jzZsG8n2R9A
 
-#medium
+#Medium
 #Array #TwoPointers #Sorting
 '''
 

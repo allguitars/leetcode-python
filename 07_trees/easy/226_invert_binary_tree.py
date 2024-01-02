@@ -1,8 +1,20 @@
-# 226. Invert Binary Tree: https://leetcode.com/problems/invert-binary-tree/submissions/
-# neetcode: https://youtu.be/OnSn2XEQ4MY
+'''
+226. Invert Binary Tree
+https://leetcode.com/problems/invert-binary-tree/submissions/
+neetcode: https://youtu.be/OnSn2XEQ4MY
 
-# recursion
-# DFS
+#Easy
+
+#Recursion
+#DFS
+#BFS
+#Tree
+#BinaryTree
+
+Similar Questions:
+2415. Reverse Odd Levels of Binary Tree
+https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/
+'''
 
 
 # Definition for a binary tree node.

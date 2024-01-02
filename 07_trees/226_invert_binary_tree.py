@@ -1,37 +1,24 @@
 '''
 226. Invert Binary Tree
-https://leetcode.com/problems/invert-binary-tree/submissions/
+https://leetcode.com/problems/invert-binary-tree/
 neetcode: https://youtu.be/OnSn2XEQ4MY
 
 #Easy
 
 #Recursion
 #DFS
-#BFS
 #Tree
 #BinaryTree
 
 Similar Questions:
 2415. Reverse Odd Levels of Binary Tree
 https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/
+
 '''
-
-
-# Definition for a binary tree node.
-class TreeNode(object):
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
 
 
 class Solution(object):
     def invertTree(self, root):
-        """
-        :type root: TreeNode
-        :rtype: TreeNode
-        """
-
         if not root:
             return None
 
@@ -44,3 +31,18 @@ class Solution(object):
         self.invertTree(root.right)
 
         return root
+
+
+'''
+       4
+     /   \
+    2     7
+   / \   / \
+  1   3 6   9
+
+       4
+     /   \
+    7     2
+   / \   / \
+  9   6 3   1
+'''

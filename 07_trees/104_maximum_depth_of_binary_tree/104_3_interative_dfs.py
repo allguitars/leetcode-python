@@ -1,13 +1,19 @@
-# 104. Maximum Depth of Binary Tree: https://leetcode.com/problems/maximum-depth-of-binary-tree/
-# neetcode: https://youtu.be/hTM3phVI6YQ
-# Amazon
 
-# Time: O(n)
 
-# Pre-order DFS:
-# process the current node first and then go to the left sub-tree and right sub-tree
+'''
+104. Maximum Depth of Binary Tree: https://leetcode.com/problems/maximum-depth-of-binary-tree/
+neetcode: https://youtu.be/hTM3phVI6YQ
+Amazon
 
-# Stack
+Time: O(n)
+
+Pre-order DFS:
+process the current node first and then go to the left sub-tree and right sub-tree
+
+#BinaryTree
+#Stack
+#DFS
+'''
 
 from collections import deque
 

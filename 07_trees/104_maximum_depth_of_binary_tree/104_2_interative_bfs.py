@@ -1,11 +1,18 @@
-# 104. Maximum Depth of Binary Tree: https://leetcode.com/problems/maximum-depth-of-binary-tree/
-# neetcode: https://youtu.be/hTM3phVI6YQ
-# Amazon
+'''
+104. Maximum Depth of Binary Tree: https://leetcode.com/problems/maximum-depth-of-binary-tree/
+neetcode: https://youtu.be/hTM3phVI6YQ
+Amazon
 
-# Time: O(n)
+Time: O(n)Time: O(n) <- traverse all the nodes
 
-# BFS is level-order traversal
-# Queue
+BFS is level-order traversal
+
+#Easy
+#Tree
+#BinaryTree
+#BFS
+#Queue
+'''
 
 from collections import deque
 

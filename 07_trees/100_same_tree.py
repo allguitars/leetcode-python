@@ -1,19 +1,26 @@
-# 100. Same Tree
-# neetcode: https://youtu.be/vRbbcKXCxOw
+'''
+100. Same Tree
+neetcode: https://youtu.be/vRbbcKXCxOw
 
-# Time: O(p+q)
+Time: O(p+q)
 
-# Recursive / DFS
-# 1. Check the roots to see if they are the same
-# 2. Check both left sub-trees
-# 3. Check both right sub-trees
+#Recursive / #DFS
+1. Check the roots to see if they are the same
+2. Check both left sub-trees
+3. Check both right sub-trees
 
-# Definition for a binary tree node.
-# class TreeNode(object):
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
+#Easy
+#Tree
+#BinaryTree
+
+Definition for a binary tree node.
+class TreeNode(object):
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+'''
+
 
 class Solution(object):
     def isSameTree(self, p, q):

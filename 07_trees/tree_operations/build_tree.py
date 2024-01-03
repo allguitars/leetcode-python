@@ -5,6 +5,12 @@ from .tree_node import TreeNode
 def with_bfs(values):
     if not values:
         return None
+    if len(values) == 1:
+        return TreeNode(values[0])
+    if len(values) == 2:
+        root = TreeNode(values[0])
+        root.left = TreeNode(values[1])
+        return root
 
     queue = deque()
     # create the root node

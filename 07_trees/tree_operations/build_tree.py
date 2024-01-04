@@ -5,18 +5,17 @@ from .tree_node import TreeNode
 def with_bfs(values):
     if not values:
         return None
-    if len(values) == 1:
-        return TreeNode(values[0])
-    if len(values) == 2:
-        root = TreeNode(values[0])
-        root.left = TreeNode(values[1])
-        return root
+    # if len(values) == 1:
+    #     return TreeNode(values[0])
+    # if len(values) == 2:
+    #     root = TreeNode(values[0])
+    #     root.left = TreeNode(values[1])
+    #     return root
 
-    queue = deque()
     # create the root node
     root = TreeNode(values[0])
     # queue holds nodes (not values)
-    queue.append(root)
+    queue = deque([root])
 
     i = 1
     while i < len(values):
@@ -24,22 +23,20 @@ def with_bfs(values):
         # pop it from the queue
         current_node = queue.popleft()
 
-        # append left child
-        left_value = values[i]  # pick next value from list
-        i += 1
-        if left_value is not None:
+        # append left child if present
+        if i < len(values) and values[i] is not None:
             # append left child node
-            current_node.left = TreeNode(left_value)
+            current_node.left = TreeNode(values[i])
             # enqueue the new node
             queue.append(current_node.left)
-
-        # append right child
-        right_value = values[i]
         i += 1
-        if right_value is not None:
+
+        # append right child if present
+        if i < len(values) and values[i] is not None:
             # append left child node
-            current_node.right = TreeNode(right_value)
+            current_node.right = TreeNode(values[i])
             # enqueue the new node
             queue.append(current_node.right)
+        i += 1
 
     return root

@@ -2,13 +2,13 @@
 572. Subtree of Another Tree
 https://leetcode.com/problems/subtree-of-another-tree/
 
-NeetCode: https://youtu.be/vRbbcKXCxOw
+NeetCode: https://youtu.be/E36O5SWp-LE
 
 #Easy
 #Tree
 #BinaryTree
 #DFS
-#HashTable
+#HashFunction
 
 Similar Questions:
 508. Most Frequent Subtree Sum (Medium)

@@ -9,3 +9,9 @@ except ImportError:
     # 把含有 tree_operations 的父目錄加到 system path
     sys.path.append(sys.path[0] + '/..')
     from tree_operations import build_tree, traverse_tree
+
+
+from typing import Optional, List
+from collections import deque
+from tree_operations.tree_node import TreeNode
+from tree_operations.build_tree import with_bfs as build

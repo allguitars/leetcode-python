@@ -2,6 +2,8 @@
 102. Binary Tree Level Order Traversal
 https://leetcode.com/problems/binary-tree-level-order-traversal/
 
+NeetCode: https://youtu.be/6ZnyEApgFYg
+
 Time: O(n)
 Space: O(n/2) -> O(n)
 complete binary tree 的最下面一排會有 ceiling[n/2] 個節點

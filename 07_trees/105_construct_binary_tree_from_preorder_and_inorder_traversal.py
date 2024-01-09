@@ -40,7 +40,6 @@ preorder 右半 [7] 也只有一個數字 -> done
 
 from typing import Optional, List
 from tree_operations.tree_node import TreeNode
-from tree_operations.build_tree import with_bfs as build
 from tree_operations.traverse_tree import inorder_traversal_list, preorder_traversal_list
 
 

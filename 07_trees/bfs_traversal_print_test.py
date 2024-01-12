@@ -28,7 +28,7 @@ print(result)  # [1, 2, 3, None, None, 4, 5]
 #    7   8
 
 # result:
-# 1 2 3 None 6 4 5 None None 7 8
+# 1 2 3 None 6 4 5 None None None None 7 8
 
 # Todo: fix this case
 root = build([1, 2, 3, None, 6, 4, 5, None, None, None, None, 7, 8])

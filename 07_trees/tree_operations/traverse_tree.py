@@ -53,6 +53,19 @@ def inorder_traversal_list(root):
 
 
 def with_bfs(root):
+    # todo: fix following case
+    #     1
+    #   /   \
+    #  2     3
+    #   \   / \
+    #   6  4   5
+    #     / \
+    #    7   8
+
+    # result:
+    # 1 2 3 None 6 4 5 None None None None 7 8
+    # 目前會印出 [1, 2, 3, None, 6, 4, 5, None, None, None, None, None, None, 7, 8]
+
     if not root:
         return None
 
@@ -89,13 +102,14 @@ def with_bfs(root):
 
     return res
 
-    '''
-    #     1
-    #   /   \
-    #  2     3
-    #       / \
-    #      4   5
 
-    # result:
-    # 1 2 3 None None 4 5
-    '''
+'''
+#     1
+#   /   \
+#  2     3
+#       / \
+#      4   5
+
+# result:
+# 1 2 3 None None 4 5
+'''

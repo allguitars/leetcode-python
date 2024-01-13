@@ -43,3 +43,19 @@ new_head = Solution().mergeTwoLists(head1, head2)
 assert traverse(new_head) == [0]
 
 print('Pass')
+
+
+'''
+
+1   2   4   None
+        l1
+1   3   4   None
+            l2
+
+_   1   1   2   3   4   4
+                        t
+d
+
+return dummy.next
+
+'''

@@ -4,4 +4,5 @@ from linked_list_operations.traverse_linked_list import traverse_linked_list as 
 values = [1, 2, 3]
 head = build(values)
 
-traverse(head)  # 1 2 3
+result = traverse(head)
+print(result)  # [1, 2, 3]

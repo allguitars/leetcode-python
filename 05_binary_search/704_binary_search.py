@@ -1,5 +1,6 @@
 # 704. Binary Search
-# neetcode: https://youtu.be/s4DPM8ct1pI
+
+# NeetCode: https://youtu.be/s4DPM8ct1pI
 
 # time: O(log n)
 

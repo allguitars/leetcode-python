@@ -1,9 +1,17 @@
-# 1: Two sum
-# neetcode: https://youtu.be/KLlXCFG5TnA
+'''
+1. Two Sum
+https://leetcode.com/problems/two-sum/
 
-# Using a hashmap
-# Time: O(n)
-# Space: O(n) -> to maintain the hashmap
+neetcode: https://youtu.be/KLlXCFG5TnA
+
+Using a hashmap
+Time: O(n)
+Space: O(n) -> to maintain the hashmap
+
+#Easy
+#Array #HashTable
+'''
+
 
 class Solution(object):
     def twoSum(self, nums, target):

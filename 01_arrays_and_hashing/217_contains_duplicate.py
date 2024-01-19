@@ -1,5 +1,13 @@
-# 217: Contains duplicate
-# neetcode
+'''
+217: Contains duplicate
+https://leetcode.com/problems/contains-duplicate/
+
+NeetCode: https://youtu.be/3OamzN90kPg
+
+#Easy
+#Array #HashTable #Sorting
+'''
+
 
 class Solution(object):
     def containsDuplicate(self, nums):
